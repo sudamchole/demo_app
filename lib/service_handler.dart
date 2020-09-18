@@ -1,0 +1,3 @@
+
+  String countryFrom;
+  String countryTo;
