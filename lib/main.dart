@@ -2,7 +2,6 @@ import 'dart:async';
 import 'dart:convert';
 
 import 'package:demoapp/CountrySearch.dart';
-import 'package:demoapp/country_model.dart';
 import 'package:demoapp/service_handler.dart';
 import 'package:flutter/material.dart';
 import 'package:http/http.dart' as http;
@@ -70,7 +69,6 @@ class _MyHomePageState extends State<MyHomePage> {
 
   bool isConnected = false;
   TextEditingController controller = new TextEditingController();
-  CountryModel countryModel=CountryModel();
  // String _countryTo = "";
  // String _countryFrom = "";
   @override
